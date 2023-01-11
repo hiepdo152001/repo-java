@@ -1,0 +1,652 @@
+
+@media all and (max-width: 768px){
+	.menu1{width: 100%;}
+	.menu2{width: 100%;}
+	.hieuung{width: 100%;}
+	.container-1{margin: auto;margin-top: 25px; margin-bottom: 20px; }
+	.menu3{margin-top: 60px;}
+	.box3{margin-top: 20px;}
+	.box3 nav{display: none;margin-top: 10px;margin-left: -35px;}
+	
+	nav{
+		display: none;
+		background: white;
+	}
+	
+	.box3 > nav > ul > li{
+position: relative;
+		width: 150px;
+		background:#50C7C7 ;
+	}
+	.box3 > nav > ul{
+		width:0px;
+		float: left;
+		/*hien thi khoi toggle co id=toggle*/
+		display: block;
+		flex-direction: column;
+		background: #90F0EB;
+	}
+	.box3 a{color: black;}
+	.box3 .menu{width: 160px; float: left;}
+	.box3 > nav > ul > li > ul{position: absolute;margin-left: 120px;}
+	.navbar-nav .dropdown-menu .caret { transform: rotate(-90deg);}
+
+	/*an the nav*/
+	
+}
+
+body{	font-size: 12px;
+	font-family: Arial !important;
+}
+.no-padding{
+	padding: 0px !important;
+
+}
+.no-padding-left{
+	padding-left: 0px !important;
+}
+.no-padding-right{
+	padding-right: 0px;
+}
+.no-margin{
+	margin: 0px !important;
+}
+.no-margin-left{
+	margin-left: 0px !important;
+}
+.no-margin-right{
+	margin-right: 0px !important;
+}
+.menu1{
+	height: 35px;
+	display: flex;
+	background: #E6EBEB;
+	}
+.menu1 img{width: 20px; height: 20px;}
+.menu1 ul{
+	text-align:center;
+	display: flex;
+	list-style: none;
+}
+.menu1 ul li{
+	display: flex;
+	border-right: 1px solid grey;
+	padding: 5px;
+	margin: auto;
+}
+.menu1 ul .text a{
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+}
+.menu1 ul li a {
+	margin: auto;
+	color: black;
+	text-decoration: none;
+}
+.menu1 ul li #mau:hover{color: red;}
+.menu2{
+	display: flex;
+	border-bottom: 1px solid grey;
+}
+.menu2 .drake{
+	margin: auto;
+}
+.tienich{display: flex; margin: auto;}
+#fix{width: 30px; height: 30px;}
+.menu2 .drake img{width: 120px; height: 50px;
+}
+.hieuung .box{
+	width: 320px;
+	height: 20px;
+	margin: auto;
+}
+.hieuung{margin-top: 10px;}
+.hieuung img{
+	width: 20px;
+	height: 20px;
+}
+.hieuung #anh{
+	width: 200px;
+	height: 50px;
+	margin: auto;
+}
+#back{margin-right: 20px;}
+#next{margin-left: 20px;}
+.quangcao{
+	width: 400px;
+	height: 50px;
+	
+	margin: auto;
+}
+.quangcao marquee{
+	text-align: center;
+	margin-top: 50px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.dropdown-submenu {
+ position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+ top: 0;
+ left: 100%;
+ margin-top: -1px;
+}
+.box3{
+	padding: 0px;
+	margin: 0px;
+    width: 1520px;
+	margin: auto;
+	display: inline;
+
+}
+.box3 nav ul{height: 30px;
+	background: black;
+	display: flex;
+margin-top: 30px;}
+.box3 nav ul li{
+	list-style: none;
+	text-decoration: none;
+	padding: auto;
+	margin: auto;
+}
+.box3{position: relative;}
+i{position: absolute;
+margin-top: 10px;}
+.box3 nav ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+}
+.box3 .box{
+	margin: auto;
+	padding: auto;
+}
+.box3 img{
+	width: 100px;
+	height: 100px;
+}
+
+.box3 nav > ul > li{
+	position: relative;
+			padding: 7px;
+			padding-right:50px ;	
+		}
+.box3 nav > ul > li .menu{
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	margin-top: 30px;
+	background: white;
+	margin-top: 10px;
+	display: flex;
+	display: none;
+}
+.box3 nav > ul > li > ul > li{
+	display: block;
+	margin-right: 30px;
+}
+.box3 nav > ul > li > ul > li a{
+	color: black;
+	margin-left: 3px;
+}
+.box3 #menuu .menu li > a:hover{color: red;border-bottom: 1px solid black;}
+.box3 nav > ul > li > a:hover{
+	color: #DB358B;border-bottom: 2px solid white ;
+}
+
+.box3 nav > ul > li:hover .menu{
+	display: flex;
+}
+.container-1{float: right;
+margin-right: 20px;
+margin-bottom: 20px;}
+.menu3{
+	display: flex;
+	margin-left: 165px;
+}
+.menu3 img{width: 7px; height: 7px; margin-top: 7px;margin-left: 10px; margin-right: 5px; }
+.menu3 a:hover{
+	color: red;
+}
+.menu3 a{
+	text-decoration: none;
+	color: #6F7575;
+	font-family: Arial;
+	font-size: 14px;
+}
+.menu4{
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+}
+.menu4 img{width: 1200px;}
+.menu5{width: 1200px;
+margin: auto;
+margin-top: 20px;}
+.menu5 a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+
+}
+.menu6{
+	width: 370px;
+	float: right;
+
+}
+.menu6 .sx{
+	width: 200px;
+}
+
+  .lichsu{width: 1300px;
+  	margin: auto;
+  }
+  .ls{width: 350px; height: 91px;margin: auto;}
+  .ls img{margin: auto;}
+  .lichsu a{text-decoration: none;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+color: black;
+  }
+.gtls{width: 1200px;margin: auto;}
+#gtls1{font-size: 16px;}
+.mr{width: 700px; height: 378px;margin: auto;}
+.gioithieu{
+	width: 1340px;
+	height: 500px;
+	margin: auto;
+}
+.gioithieu img{
+	width: 1340px;
+	height: 500px;
+	margin: auto;
+}
+.bieutuong{
+	width: 900px;
+	margin-left: 400px;
+}
+.bieutuong img{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+}
+.sale{
+	width: 900px;
+	margin: auto;
+}
+.sale img{
+	width: 400px;
+	height: 200px;
+	margin-right: 30px;
+}
+.main a{text-decoration: none;
+color: black;
+margin-left: 1px;
+margin-right: 10px;}
+.main img{
+	width: 150px;
+	height: 150px;
+}
+.main .hinh img{width: 400px;
+height: 500px;
+width: 600px;}
+.main{
+	width: 1300px;
+	margin-top: 30px;
+	display: flex;
+}
+.main .hinh{margin-right: 50px;}
+
+.main .list .list1 ul > li{
+	margin-right: 20px;
+	list-style: none;
+}
+.main .list .list1 #t1{
+	font-family: Arial;
+	font-weight: bold;
+	margin: auto;
+}
+.main .list .list1 #t1:hover{
+	color: red;
+}
+.main .list .list1 #t3{
+font-family: Arial;
+font-weight: bold;
+font-size: 16px;
+	}
+.main .list .list1 ul > li img{
+	margin-left: -10px;
+}
+.main .list .list1 ul > li a{
+	text-align: center;
+}
+
+.main .back{
+	margin-left: 100px;
+}
+.main .list ul{
+	display:flex ;
+}
+.main .back{margin-top: 270px;}
+.main .back img{width: 30px; height: 30px;}
+.main .next{margin-top: 270px;}
+.main .next img{width: 30px; height: 30px;}
+.converse{margin-top: 100px;}
+.converse{
+	width: 1000px;
+	height: 1000px;
+}
+.converse{width: 900px;
+margin: auto;
+margin-top: 30px;}
+.converse .bt{
+    width: 920px;
+	height: 200px;
+	margin: auto;
+
+}
+.converse .list{
+	margin-top: 20px;
+}
+.converse .bt img{
+	width: 900px;
+	height: 200px;
+	margin: auto;
+}
+
+.converse .l1 img{width: 100px; height: 100px;}
+.converse .l1 ul{
+	display: flex;
+} 
+.converse .l1 ul li{
+	margin-right: 50px;
+	list-style: none;
+	text-decoration: none;
+}
+.converse .l1{
+	width: 500px;
+	margin: auto;
+}
+.converse a{
+	text-decoration: none;
+	color: black;
+}
+.converse .l1 ul li #t1{
+	font-family: Arial;
+	font-weight: bold;
+	margin: auto;
+}
+.converse .l1 #t1:hover{
+	color: red;
+}
+.converse .l1 #t3{
+font-family: Arial;
+font-weight: bold;
+font-size: 16px;
+	}
+.see{
+		width: 100px;
+		height: 40px;
+		border: 1px solid #F0CAAF;
+		border-radius:5px ;
+		margin: auto;
+		position: relative;
+		margin-top: 10px;
+	}
+.see a{
+		position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+	}
+.see:hover{
+	background: #F5C4E9;
+}
+.gt{
+	display: flex;
+}
+.gt .hinh{
+	width: 500px;
+	height: 400px;
+	margin-left: 100px;
+}
+.gt .hinh img{
+	width: 500px;
+}
+.gt .hinh #dam{
+	margin-top: 10px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.gt .text{
+	width: 500px;
+	height: 400px;
+	margin-left: 100px;
+}
+.gt .text .text1{
+	display: flex;
+}
+.gt .text img{
+	width: 100px;
+	height: 50px;
+}
+.gt .text .text1 #t1{
+	font-family: Arial;
+	font-family: bold;
+	font-size: 16px;
+
+}
+h2{
+	margin-left: 40px;
+}
+.text .text1 #t1:hover{
+	color: red;
+}
+.text .text1 #t2{
+	
+	color: grey;
+
+}
+.dangki{
+   width: 1300px;
+   height: 50px;
+   margin: auto;
+	margin-top: 100px;
+	display: flex;
+	background: #F2E7E4;
+}
+.dangki .thanhcongcu{
+	display: flex;
+	margin-left: 100px;
+
+	margin-top: 10px;
+
+}
+a{text-decoration: none;color: black;}
+.dangki .thanhcongcu .box{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	border: 1px solid grey;
+	background: #F0CAAF;
+}
+.dangki .thanhcongcu .box a{
+	position: absolute;
+	margin-top: 5px;
+}
+.dangki .thanhcongcu .box a:hover{
+	color: red;
+}
+.dangki .text{
+	margin-left:200px;
+	margin-top: 10px;
+}
+.menuend{
+	width: 1300px;
+	height: 300px;
+	display: flex;
+	margin: auto;
+	margin-top: 50px;
+}
+.menuend a{
+	font-size: 14px;
+}
+.menuend .gioithieu ul li{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	list-style: square;
+	color:grey;
+
+}
+.menuend .gioithieu{
+	margin-left: 30px;
+}
+.sp{
+	margin-left: 30px;
+}
+.sp #mn{
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.menuend a:hover{
+	color: red;
+}
+.sp ul{
+display: flex;
+}
+.sp ul li{
+	list-style: none;
+}
+.sp ul li img{
+	margin-right: 5px;
+}
+
+.end{
+	width: 450px;
+	height: 30px;
+	margin: auto;
+	margin-top: 20px;
+}
+.end a{
+	
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+}
+/*sanpham*/
+#sanpham:hover{
+ margin:5px;
+ position: relative;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  text-align: center;}
+/*san pham*/
+.sanpham{display: flex; width: 800px;margin: auto;}
+#box{width: 400px;}
+#box img{width: 400px; height: 400px;}
+#img_main{width: 400px;}
+#box ul{padding: 0px; margin: 0px; list-style: none; margin-top: 5px;}
+#box ul li{display: inline; margin-right: 6px;}
+#box ul li img{width: 68px;height: 68px; border: 1px solid white;} 
+.sanpham .box2{margin: 0px; padding: 0px;margin-top: 30px; width: 500px;}
+.sanpham .tex1{font-family: Arial; font-weight: bold;font-size: 16px;}
+.sanpham .t1{width: 190px;height: 80px; border-right:1px solid grey ;margin-top: 5px;}
+.sanpham .t2{width: 500px;}
+.sanpham .box2 .sao img{width: 60px; height: 30px;}
+.sanpham .t21{
+display: flex;
+margin-left:15px ;
+}
+h6{margin-top: 20px;}
+h1{color: red;}
+h5{font-weight: bold;font-size: 12px;margin-left: 15px;}
+.sanpham .text2{display: flex;}
+.sanpham .text3{
+	border-bottom: 1px solid grey;
+}
+.sanpham .chonsize{margin-top: 10px;}
+.hd{margin-top: 5px;}
+.hd a{color: black;}
+.hd a:hover{color: red;border-bottom: 1px solid black;}
+.sanpham .dathang{display: flex;}
+.icon{width: 80px; height: 25px;
+ border-radius: 20px;
+ border: 1px solid grey;
+ text-align: center;
+ margin-left: 10px;
+}
+.icon:hover{background: red;}
+.icon a:hover{color: white;border-bottom: 1px solid black;}
+.soluong{margin-top: 5px;font-family: Arial;font-weight: bold;}
+.cv{width: 1200px;
+margin: auto;
+margin-top: 50px;}
+.cv .bt{
+    width: 920px;
+	height: 200px;
+	margin: auto;
+
+}
+.cv .list{
+	margin-top: 20px;
+}
+.cv .l1 img{width: 220px; height: 200px; }
+.cv .l1 ul{
+	display: flex;
+} 
+.cv .l1 ul li{
+	margin-right: 40px;
+	list-style: none;
+	text-decoration: none;
+}
+.cv .l1{
+	width: 1000px;
+	margin: auto;
+}
+.cv #new{
+	width: 25px;
+	height: 35px;
+}
+.cv #g1{position: relative;}
+.cv #new{
+	position: absolute;
+	margin-top: -200px;
+	margin-left: 180px;
+}
+.cv a{
+	text-decoration: none;
+	color: black;
+}
+.cv .l1 ul li #t1{
+	font-family: Arial;
+	font-weight: bold;
+	margin: auto;
+}
+.cv .l1 #t1:hover{
+	color: red;
+}
+
+		#box{width: 400px; margin: auto;}
+		#img_main{width: 400px;}
+		#box ul{padding: 0px; margin: 0px; list-style: none; margin-top: 5px;}
+		#box ul li{display: inline; margin-right: 6px;}
+		#box ul li img{width: 68px; border: 1px solid white;} 
+
+
+.cv .l1 #t3{
+font-family: Arial;
+font-weight: bold;
+font-size: 16px;
+	}
+	.see a{text-decoration: none; color: black;}
+/*/sanpham*/
+.menu7{ width: 300px; margin: auto;}
+.menu7 ul{display: flex;list-style: none;}
+.menu7 ul li{margin-right: 15px;}
+.menu7 ul li a{color: black; font-size: 16px;border-right: 1px solid grey;margin: 5px; padding-right: 15px; margin-right: -5px;}
+.menu7 ul li a:hover{color: red;}

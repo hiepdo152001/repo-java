@@ -1,0 +1,12 @@
+.logo a {
+	font-size: 25px;
+	color: white;
+}
+/*-------------- themMatHang -----------------*/
+.custom-file > input {
+	margin-left: 30px;
+}
+.input-group {
+	height: 70px;
+	align-items: center;
+}
